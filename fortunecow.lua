@@ -24,6 +24,7 @@ local function cowmaker()
 			title = "Cow Fortune",
 			text = cowtext:read("*all"),
 			timeout = 0,
+			font = "DroidSansMono 12",
 			screen = mouse.screen
 		})
 	end
