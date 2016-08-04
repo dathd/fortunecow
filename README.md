@@ -2,7 +2,8 @@
 	fortunecow_awesome is a widget which shows fortune cookies quotes...stated by a wise scowleton. 
 	Get it? Cow + Skeleton? Huehuehue
 ## Requirement
-	Install the `fortune` and `cowsay` packages from official repository.
+	+ `fortune` and `cowsay` packages from the official repository.
+	+ SourceCodePro font.
 ## Installation
 	+ Clone this repository into your `~/.config/awesome/` folder
 	+ Add these lines into your `rc.lua` file
