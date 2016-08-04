@@ -3,7 +3,7 @@
 	Get it? Cow + Skeleton? Huehuehue
 ## Requirement
 	+ `fortune` and `cowsay` packages from the official repository.
-	+ SourceCodePro font.
+	+ `DroidSansMono` font.
 ## Installation
 	+ Clone this repository into your `~/.config/awesome/` folder
 	+ Add these lines into your `rc.lua` file
