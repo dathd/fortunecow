@@ -7,7 +7,7 @@ fortunecow = {}
 
 local function cowmaker()
 	widget = wibox.widget.imagebox()
-	widget:set_image(os.getenv("HOME") .. "/.config/awesome/fortunecow_awesome/icons/cow.jpg")
+	widget:set_image(os.getenv("HOME") .. "/.config/awesome/fortunecow/icons/image.png")
 	
 	local cownoti = nil
 	function widget:hidecow()
@@ -24,6 +24,7 @@ local function cowmaker()
 			title = "Cow Fortune",
 			text = cowtext:read("*all"),
 			timeout = 0,
+			font = "DroidSansMono 8",
 			screen = mouse.screen
 		})
 	end
